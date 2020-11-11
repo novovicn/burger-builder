@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 import classes from './Burger.css'
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient.js/BurgerIngredient'
 
 
 function Burger(props) {
-
+;
     let transformedIngredients = Object.keys(props.ingredients)
         .map(igKey => {
             return [...Array(props.ingredients[igKey])].map((_, i) => {
